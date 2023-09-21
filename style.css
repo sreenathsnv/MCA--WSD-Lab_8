@@ -1,0 +1,47 @@
+body{
+
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+
+}
+h1{
+
+    font-size: 10vh;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: crimson;
+    font-weight: 700;
+}
+h4
+{
+    display: none;
+}
+#searcharea
+{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin-top: 10vh;
+}
+#products
+{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin-top: 10vh;
+
+}
+.cards{
+
+    margin:5vh;
+
+}
+img{
+
+    width:15vw;
+    height:15vw;
+}
