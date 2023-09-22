@@ -13,7 +13,7 @@ fetch('https://dummyjson.com/products')
     prodDiv.innerHTML +=
 
     `
-    <div class="card" style="width: 18rem;">
+    <div class="card cards" style="width: 18rem;">
             <img src="${(element.images)[0]}" class="card-img-top" alt="...">
             <div class="card-body">
               <h5 class="card-title">${element.title}</h5>
